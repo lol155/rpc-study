@@ -1,5 +1,9 @@
 package com.signalfire.www.rpc.sample.server;
 
+import com.signalfire.www.rpc.sample.common.HelloService;
+import com.signalfire.www.rpc.sample.common.Person;
+import com.signalfire.www.rpc.server.RpcService;
+
 @RpcService(HelloService.class)
 public class HelloServiceImpl implements HelloService {
 

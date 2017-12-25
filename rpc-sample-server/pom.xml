@@ -23,6 +23,11 @@
             <artifactId>rpc-sample-client</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>www.signalfire.com</groupId>
+            <artifactId>rpc-sample-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 </project>
