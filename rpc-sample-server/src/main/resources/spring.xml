@@ -14,4 +14,8 @@
     <bean id="serviceRegistry" class="com.signalfire.www.rpc.registry.ServiceRegistry">
         <constructor-arg name="registryAddress" value="${registry.address}"/>
     </bean>
+    <bean id="rpcServer" class="com.signalfire.www.rpc.server.RpcServer">
+        <constructor-arg name="serverAddress" value="${server.address}"/>
+        <constructor-arg name="serviceRegistry" ref="serviceRegistry"/>
+    </bean>
 </beans>
