@@ -2,6 +2,7 @@ package com.signalfire.www.rpc.server;
 
 import com.signalfire.www.rpc.registry.ServiceRegistry;
 import io.netty.bootstrap.ServerBootstrap;
+import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelOption;
 import io.netty.channel.nio.NioEventLoopGroup;
@@ -90,6 +91,12 @@ public class RpcServer implements ApplicationContextAware, InitializingBean {
 
                     }).option(ChannelOption.SO_BACKLOG, 128)
                     .childOption(ChannelOption.SO_KEEPALIVE, true);
+
+            String[] address = serverAddress.split(":");
+            String host = address[0];
+            int port = Integer.parseInt(address[1]);
+            ChannelFuture future = bootstrap.bind(host, port).sync();
+            LOGGER.debug("server started on port {}", port);
 
 
 

@@ -28,14 +28,14 @@
         <entry file="file://$PROJECT_DIR$/rpc-server/src/main/java/com/signalfire/www/rpc/server/RpcServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="677">
-              <caret line="97" column="43" lean-forward="false" selection-start-line="97" selection-start-column="43" selection-end-line="97" selection-end-column="43" />
+              <caret line="98" column="60" lean-forward="false" selection-start-line="98" selection-start-column="60" selection-end-line="98" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1337#1353#0" expanded="true" />
-                <element signature="e#1401#1402#0" expanded="true" />
-                <element signature="e#1451#1452#0" expanded="true" />
-                <element signature="e#3012#3483#0" expanded="true" />
-                <element signature="e#3482#3483#0" expanded="true" />
+                <element signature="e#1376#1392#0" expanded="true" />
+                <element signature="e#1440#1441#0" expanded="true" />
+                <element signature="e#1490#1491#0" expanded="true" />
+                <element signature="e#3051#3522#0" expanded="true" />
+                <element signature="e#3521#3522#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -391,7 +391,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514209573701</updated>
-      <workItem from="1514209575670" duration="5898000" />
+      <workItem from="1514209575670" duration="6101000" />
     </task>
     <task id="LOCAL-00001" summary="导入maven包">
       <created>1514211107719</created>
@@ -477,11 +477,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514214753576</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="实现rpcserver  绑定netty流水线">
+      <created>1514215527316</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1514215527316</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5898000" />
+    <option name="totallyTimeSpent" value="6101000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -576,7 +583,8 @@
     <MESSAGE value="spring 加载注册类serviceRegistry &#10;创建注册类" />
     <MESSAGE value="spring 加载服务类rpcServer&#10;创建服务类 rpcserver 实现接口ApplicationContextAware, InitializingBean" />
     <MESSAGE value="实现rpcserver 中 收集获取有注解rpcservice的类" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现rpcserver 中 收集获取有注解rpcservice的类" />
+    <MESSAGE value="实现rpcserver  绑定netty流水线" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现rpcserver  绑定netty流水线" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -767,14 +775,14 @@
     <entry file="file://$PROJECT_DIR$/rpc-server/src/main/java/com/signalfire/www/rpc/server/RpcServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="677">
-          <caret line="97" column="43" lean-forward="false" selection-start-line="97" selection-start-column="43" selection-end-line="97" selection-end-column="43" />
+          <caret line="98" column="60" lean-forward="false" selection-start-line="98" selection-start-column="60" selection-end-line="98" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1337#1353#0" expanded="true" />
-            <element signature="e#1401#1402#0" expanded="true" />
-            <element signature="e#1451#1452#0" expanded="true" />
-            <element signature="e#3012#3483#0" expanded="true" />
-            <element signature="e#3482#3483#0" expanded="true" />
+            <element signature="e#1376#1392#0" expanded="true" />
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1490#1491#0" expanded="true" />
+            <element signature="e#3051#3522#0" expanded="true" />
+            <element signature="e#3521#3522#0" expanded="true" />
           </folding>
         </state>
       </provider>
