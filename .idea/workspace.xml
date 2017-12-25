@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="549c17aa-d931-4fe6-8284-97842fe540c5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc-common/src/main/java/com/signalfire/www/rpc/common/SerializationUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc-common/src/main/java/com/signalfire/www/rpc/common/RpcEncoder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,12 +38,22 @@
       <file leaf-file-name="RpcServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpc-server/src/main/java/com/signalfire/www/rpc/server/RpcServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1273">
-              <caret line="86" column="69" lean-forward="false" selection-start-line="86" selection-start-column="59" selection-end-line="86" selection-end-column="69" />
+            <state relative-caret-position="361">
+              <caret line="87" column="59" lean-forward="false" selection-start-line="87" selection-start-column="49" selection-end-line="87" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1440#1441#0" expanded="true" />
-                <element signature="e#1490#1491#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RpcEncoder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rpc-common/src/main/java/com/signalfire/www/rpc/common/RpcEncoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SerializationUtil.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SerializationUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpc-common/src/main/java/com/signalfire/www/rpc/common/SerializationUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+            <state relative-caret-position="399">
+              <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -180,6 +190,7 @@
         <option value="$PROJECT_DIR$/rpc-common/src/main/java/com/signalfire/www/rpc/common/RpcResponse.java" />
         <option value="$PROJECT_DIR$/rpc-common/src/main/java/com/signalfire/www/rpc/common/RpcDecoder.java" />
         <option value="$PROJECT_DIR$/rpc-common/src/main/java/com/signalfire/www/rpc/common/SerializationUtil.java" />
+        <option value="$PROJECT_DIR$/rpc-common/src/main/java/com/signalfire/www/rpc/common/RpcEncoder.java" />
       </list>
     </option>
   </component>
@@ -507,7 +518,7 @@
       <option name="presentableId" value="Default" />
       <updated>1514209573701</updated>
       <workItem from="1514209575670" duration="7107000" />
-      <workItem from="1514216728170" duration="35000" />
+      <workItem from="1514216728170" duration="84000" />
     </task>
     <task id="LOCAL-00001" summary="导入maven包">
       <created>1514211107719</created>
@@ -663,11 +674,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514216747151</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="实现SerializationUtil.java">
+      <created>1514216774034</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1514216774034</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7142000" />
+    <option name="totallyTimeSpent" value="7191000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -739,7 +757,8 @@
     <MESSAGE value="实现rpcResponse" />
     <MESSAGE value="实现rpcdecode" />
     <MESSAGE value="实现rpcdecoder" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现rpcdecoder" />
+    <MESSAGE value="实现SerializationUtil.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现SerializationUtil.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -752,8 +771,6 @@
           <caret line="86" column="69" lean-forward="false" selection-start-line="86" selection-start-column="59" selection-end-line="86" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1440#1441#0" expanded="true" />
-            <element signature="e#1490#1491#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -984,18 +1001,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-server/src/main/java/com/signalfire/www/rpc/server/RpcServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1273">
-          <caret line="86" column="69" lean-forward="false" selection-start-line="86" selection-start-column="59" selection-end-line="86" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1440#1441#0" expanded="true" />
-            <element signature="e#1490#1491#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rpc-common/src/main/java/com/signalfire/www/rpc/common/RpcDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -1008,9 +1013,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rpc-common/src/main/java/com/signalfire/www/rpc/common/SerializationUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        <state relative-caret-position="399">
+          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-server/src/main/java/com/signalfire/www/rpc/server/RpcServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="87" column="59" lean-forward="false" selection-start-line="87" selection-start-column="49" selection-end-line="87" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-common/src/main/java/com/signalfire/www/rpc/common/RpcEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
