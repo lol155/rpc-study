@@ -1,4 +1,4 @@
-package com.signalfire.www.rpc.sample.client;
+package com.signalfire.www.rpc.sample.common;
 
 public interface HelloService {
 

@@ -11,6 +11,7 @@
         <module name="rpc-registry" />
         <module name="rpc-sample-app" />
         <module name="rpc-sample-client" />
+        <module name="rpc-sample-common" />
         <module name="rpc-sample-server" />
         <module name="rpc-server" />
       </profile>
@@ -22,6 +23,7 @@
       <module name="rpc-registry" target="1.5" />
       <module name="rpc-sample-app" target="1.5" />
       <module name="rpc-sample-client" target="1.5" />
+      <module name="rpc-sample-common" target="1.5" />
       <module name="rpc-sample-server" target="1.5" />
       <module name="rpc-server" target="1.5" />
     </bytecodeTargetLevel>
