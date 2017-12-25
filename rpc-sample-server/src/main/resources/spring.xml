@@ -11,4 +11,7 @@
 
     <context:property-placeholder location="classpath:rpc.properties"/>
 
+    <bean id="serviceRegistry" class="com.signalfire.www.rpc.registry.ServiceRegistry">
+        <constructor-arg name="registryAddress" value="${registry.address}"/>
+    </bean>
 </beans>
