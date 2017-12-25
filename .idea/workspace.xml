@@ -27,8 +27,8 @@
       <file leaf-file-name="RpcServer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rpc-server/src/main/java/com/signalfire/www/rpc/server/RpcServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="677">
-              <caret line="98" column="60" lean-forward="false" selection-start-line="98" selection-start-column="60" selection-end-line="98" selection-end-column="60" />
+            <state relative-caret-position="791">
+              <caret line="104" column="50" lean-forward="false" selection-start-line="104" selection-start-column="50" selection-end-line="104" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1376#1392#0" expanded="true" />
@@ -391,7 +391,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514209573701</updated>
-      <workItem from="1514209575670" duration="6101000" />
+      <workItem from="1514209575670" duration="6195000" />
     </task>
     <task id="LOCAL-00001" summary="导入maven包">
       <created>1514211107719</created>
@@ -484,11 +484,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514215527316</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="实现rpcserver  netty 启动">
+      <created>1514215728002</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1514215728002</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6101000" />
+    <option name="totallyTimeSpent" value="6195000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -584,7 +591,8 @@
     <MESSAGE value="spring 加载服务类rpcServer&#10;创建服务类 rpcserver 实现接口ApplicationContextAware, InitializingBean" />
     <MESSAGE value="实现rpcserver 中 收集获取有注解rpcservice的类" />
     <MESSAGE value="实现rpcserver  绑定netty流水线" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现rpcserver  绑定netty流水线" />
+    <MESSAGE value="实现rpcserver  netty 启动" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现rpcserver  netty 启动" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -774,8 +782,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rpc-server/src/main/java/com/signalfire/www/rpc/server/RpcServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="98" column="60" lean-forward="false" selection-start-line="98" selection-start-column="60" selection-end-line="98" selection-end-column="60" />
+        <state relative-caret-position="791">
+          <caret line="104" column="50" lean-forward="false" selection-start-line="104" selection-start-column="50" selection-end-line="104" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1376#1392#0" expanded="true" />
