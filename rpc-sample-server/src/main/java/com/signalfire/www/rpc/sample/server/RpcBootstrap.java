@@ -1,4 +1,4 @@
-package www.signalfire.com.rpc.sample.server;
+package com.signalfire.www.rpc.sample.server;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
