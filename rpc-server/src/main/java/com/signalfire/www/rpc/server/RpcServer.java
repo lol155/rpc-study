@@ -1,6 +1,7 @@
 package com.signalfire.www.rpc.server;
 
 import com.signalfire.www.rpc.registry.ServiceRegistry;
+import org.apache.commons.collections4.MapUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeansException;
@@ -39,16 +40,26 @@ public class RpcServer implements ApplicationContextAware, InitializingBean {
 
 
     /**
-     * 通过注解，获取标注了rpc服务注解的业务类的----接口及impl对象，将它放到handlerMap中
      * 完成加载后调用
+     *
+     * 通过注解，获取标注了rpc服务注解的业务类的----接口及impl对象，将它放到handlerMap中
      */
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
-
+        Map<String, Object> serviceBeanMap = applicationContext.getBeansWithAnnotation(RpcService.class);
+        if (MapUtils.isNotEmpty(serviceBeanMap)) {
+            for (Object serviceBean : serviceBeanMap.values()) {
+                //从业务实现类上的自定义注解中获取到value，从而获取到业务接口的名称
+                String interfaceName = serviceBean.getClass().getAnnotation(RpcService.class).value().getName();
+                handlerMap.put(interfaceName, serviceBean);
+            }
+        }
 
 
     }
 
     /**
+     * 初始化bean后调用此方法
+     *
      * 在此启动netty服务，绑定handle流水线：
      * 1、接收请求数据进行反序列化得到request对象
      * 2、根据request中的参数，让RpcHandler从handlerMap中找到对应的业务imple，调用指定方法，获取返回结果
