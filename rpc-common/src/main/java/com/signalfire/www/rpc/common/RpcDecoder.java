@@ -35,7 +35,7 @@ public class RpcDecoder extends ByteToMessageDecoder{
         byte[] data = new byte[dataLength];
         in.readBytes(data);
         //将data转换成object
-        Object obj = SerializationUtil.deserialize(data, genericClass);
+        Object obj = com.signalfire.www.rpc.common.SerializationUtil.deserialize(data, genericClass);
         out.add(obj);
     }
 }
