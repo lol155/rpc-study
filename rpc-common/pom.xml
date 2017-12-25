@@ -11,5 +11,7 @@
 
     <artifactId>rpc-common</artifactId>
 
+    <dependencies>
 
+    </dependencies>
 </project>

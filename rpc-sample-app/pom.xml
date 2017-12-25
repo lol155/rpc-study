@@ -5,11 +5,36 @@
     <parent>
         <artifactId>rpc</artifactId>
         <groupId>www.signalfire.com</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>rpc-sample-app</artifactId>
-
+    <dependencies>
+        <!-- Spring -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>3.2.12.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>3.2.12.RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- RPC Client -->
+        <dependency>
+            <groupId>www.signalfire.com</groupId>
+            <artifactId>rpc-client</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <!-- RPC Sample Client -->
+        <dependency>
+            <groupId>www.signalfire.com</groupId>
+            <artifactId>rpc-sample-client</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>

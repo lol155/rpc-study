@@ -6,11 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="rpc" />
+        <module name="rpc-client" />
+        <module name="rpc-common" />
+        <module name="rpc-registry" />
+        <module name="rpc-sample-app" />
+        <module name="rpc-sample-client" />
+        <module name="rpc-sample-server" />
+        <module name="rpc-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="rpc" target="1.5" />
+      <module name="rpc-client" target="1.5" />
+      <module name="rpc-common" target="1.5" />
+      <module name="rpc-registry" target="1.5" />
+      <module name="rpc-sample-app" target="1.5" />
+      <module name="rpc-sample-client" target="1.5" />
+      <module name="rpc-sample-server" target="1.5" />
+      <module name="rpc-server" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
