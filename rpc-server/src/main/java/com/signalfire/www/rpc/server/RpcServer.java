@@ -1,6 +1,12 @@
 package com.signalfire.www.rpc.server;
 
 import com.signalfire.www.rpc.registry.ServiceRegistry;
+import io.netty.bootstrap.ServerBootstrap;
+import io.netty.channel.ChannelInitializer;
+import io.netty.channel.ChannelOption;
+import io.netty.channel.nio.NioEventLoopGroup;
+import io.netty.channel.socket.SocketChannel;
+import io.netty.channel.socket.nio.NioServerSocketChannel;
 import org.apache.commons.collections4.MapUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -66,6 +72,31 @@ public class RpcServer implements ApplicationContextAware, InitializingBean {
      * 3、将业务调用结果封装到response并序列化后发往客户端
      */
     public void afterPropertiesSet() throws Exception {
+        NioEventLoopGroup bossGroup = new NioEventLoopGroup();
+        NioEventLoopGroup workerGroup = new NioEventLoopGroup();
+
+        try {
+            ServerBootstrap bootstrap = new ServerBootstrap();
+
+            bootstrap.group(bossGroup, workerGroup)
+                    .channel(NioServerSocketChannel.class)
+                    .childHandler(new ChannelInitializer<SocketChannel>() {
+
+                        protected void initChannel(SocketChannel channel) throws Exception {
+                            channel.pipeline().addLast(new RpcDecoder(RpcRequest.class)) //注册解码，IN-1
+                                    .addLast(new RpcEncoder(RpcResponse.class))  //注册编码 out
+                                    .addLast(new RpcHandler(handlerMap));//注册rpchandler  IN-2
+                        }
+
+                    }).option(ChannelOption.SO_BACKLOG, 128)
+                    .childOption(ChannelOption.SO_KEEPALIVE, true);
+
+
+
+        } finally {
+            workerGroup.shutdownGracefully();
+            bossGroup.shutdownGracefully();
+        }
 
     }
 
