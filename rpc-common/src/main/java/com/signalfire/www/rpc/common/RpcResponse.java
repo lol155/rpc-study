@@ -31,4 +31,8 @@ public class RpcResponse {
     public void setResult(Object result) {
         this.result = result;
     }
+
+    public boolean isError() {
+        return error != null;
+    }
 }

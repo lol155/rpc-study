@@ -65,7 +65,7 @@ public class RpcProxy {
                         RpcResponse response = rpcClient.send(request);
 
                         //返回信息
-                        if (response.isError) {
+                        if (response.isError()) {
                             throw response.getError();
                         } else {
                             return response.getResult();
