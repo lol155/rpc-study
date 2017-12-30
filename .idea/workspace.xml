@@ -100,11 +100,13 @@
       <file leaf-file-name="ServiceDiscovery.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rpc-registry/src/main/java/com/signalfire/www/rpc/registry/ServiceDiscovery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="551">
+              <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#521#529#0" expanded="true" />
+                <element signature="e#628#636#0" expanded="true" />
+                <element signature="e#1184#1481#0" expanded="true" />
+                <element signature="e#1480#1481#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -592,7 +594,7 @@
       <workItem from="1514209575670" duration="7107000" />
       <workItem from="1514216728170" duration="1035000" />
       <workItem from="1514290658771" duration="2741000" />
-      <workItem from="1514642396947" duration="3329000" />
+      <workItem from="1514642396947" duration="3561000" />
     </task>
     <task id="LOCAL-00001" summary="导入maven包">
       <created>1514211107719</created>
@@ -804,11 +806,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514645434046</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="serviceDiscovery">
+      <created>1514645742503</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1514645742503</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14212000" />
+    <option name="totallyTimeSpent" value="14444000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -888,7 +897,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="创建启动类 添加注释" />
     <MESSAGE value="添加配置文件 修改包路径" />
     <MESSAGE value="创建服务实现类helloServiceImpl" />
     <MESSAGE value="在客户端创建调用的接口" />
@@ -913,7 +921,8 @@
     <MESSAGE value="删除模块rpc-sample-client" />
     <MESSAGE value="客户端调用逻辑" />
     <MESSAGE value="rpcproxy" />
-    <option name="LAST_COMMIT_MESSAGE" value="rpcproxy" />
+    <MESSAGE value="serviceDiscovery" />
+    <option name="LAST_COMMIT_MESSAGE" value="serviceDiscovery" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1312,11 +1321,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rpc-registry/src/main/java/com/signalfire/www/rpc/registry/ServiceDiscovery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="551">
+          <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#521#529#0" expanded="true" />
+            <element signature="e#628#636#0" expanded="true" />
+            <element signature="e#1184#1481#0" expanded="true" />
+            <element signature="e#1480#1481#0" expanded="true" />
           </folding>
         </state>
       </provider>
