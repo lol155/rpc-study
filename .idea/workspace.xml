@@ -34,18 +34,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RpcServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-server/src/main/java/com/signalfire/www/rpc/server/RpcServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="105" column="37" lean-forward="false" selection-start-line="105" selection-start-column="37" selection-end-line="105" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ServiceRegistry.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpc-registry/src/main/java/com/signalfire/www/rpc/registry/ServiceRegistry.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RpcProxy.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RpcProxy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpc-client/src/main/java/com/signalfire/www/rpc/client/RpcProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="266">
+              <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#458#459#0" expanded="true" />
@@ -104,6 +92,19 @@
                 <element signature="e#708#738#0" expanded="true" />
                 <element signature="e#913#2425#0" expanded="true" />
                 <element signature="e#2424#2425#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceDiscovery.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rpc-registry/src/main/java/com/signalfire/www/rpc/registry/ServiceDiscovery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#521#529#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -222,6 +223,7 @@
         <option value="$PROJECT_DIR$/rpc-sample-app/pom.xml" />
         <option value="$PROJECT_DIR$/rpc-sample-app/src/main/java/com/signalfire/www/rpc/sample/app/HelloServiceTest.java" />
         <option value="$PROJECT_DIR$/rpc-client/src/main/java/com/signalfire/www/rpc/client/RpcProxy.java" />
+        <option value="$PROJECT_DIR$/rpc-registry/src/main/java/com/signalfire/www/rpc/registry/ServiceDiscovery.java" />
       </list>
     </option>
   </component>
@@ -311,6 +313,46 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-registry" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
@@ -550,7 +592,7 @@
       <workItem from="1514209575670" duration="7107000" />
       <workItem from="1514216728170" duration="1035000" />
       <workItem from="1514290658771" duration="2741000" />
-      <workItem from="1514642396947" duration="3016000" />
+      <workItem from="1514642396947" duration="3329000" />
     </task>
     <task id="LOCAL-00001" summary="导入maven包">
       <created>1514211107719</created>
@@ -755,11 +797,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514644229096</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="rpcproxy">
+      <created>1514645434046</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1514645434046</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13899000" />
+    <option name="totallyTimeSpent" value="14212000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -839,7 +888,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="创建启动类" />
     <MESSAGE value="创建启动类 添加注释" />
     <MESSAGE value="添加配置文件 修改包路径" />
     <MESSAGE value="创建服务实现类helloServiceImpl" />
@@ -864,23 +912,14 @@
     <MESSAGE value="实现serviceRegistry" />
     <MESSAGE value="删除模块rpc-sample-client" />
     <MESSAGE value="客户端调用逻辑" />
-    <option name="LAST_COMMIT_MESSAGE" value="客户端调用逻辑" />
+    <MESSAGE value="rpcproxy" />
+    <option name="LAST_COMMIT_MESSAGE" value="rpcproxy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rpc-server/src/main/java/com/signalfire/www/rpc/server/RpcServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rpc-common/src/main/java/com/signalfire/www/rpc/common/RpcEncoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -1182,6 +1221,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1255,8 +1295,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rpc-client/src/main/java/com/signalfire/www/rpc/client/RpcProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="266">
+          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#458#459#0" expanded="true" />
@@ -1266,6 +1306,17 @@
             <element signature="e#708#738#0" expanded="true" />
             <element signature="e#913#2425#0" expanded="true" />
             <element signature="e#2424#2425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-registry/src/main/java/com/signalfire/www/rpc/registry/ServiceDiscovery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#521#529#0" expanded="true" />
           </folding>
         </state>
       </provider>
