@@ -29,10 +29,10 @@
             <artifactId>rpc-client</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
-        <!-- RPC Sample Client -->
+        <!-- RPC Sample Common -->
         <dependency>
             <groupId>com.signalfire.www</groupId>
-            <artifactId>rpc-sample-client</artifactId>
+            <artifactId>rpc-sample-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

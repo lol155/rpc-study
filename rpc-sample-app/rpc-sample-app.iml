@@ -27,7 +27,7 @@
     <orderEntry type="module" module-name="rpc-client" />
     <orderEntry type="module" module-name="rpc-common" />
     <orderEntry type="library" name="Maven: rpc-common:rpc-registry:0.0.1-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: com.signalfire.www:rpc-sample-client:0.0.1-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="rpc-sample-common" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.7" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.7" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
