@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="549c17aa-d931-4fe6-8284-97842fe540c5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc-sample-app/src/main/resources/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc-sample-app/src/main/resources/rpc.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rpc-sample-app/src/main/resources/spring.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rpc-client/src/main/java/com/signalfire/www/rpc/client/RpcProxy.java" afterPath="$PROJECT_DIR$/rpc-client/src/main/java/com/signalfire/www/rpc/client/RpcProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rpc-common/src/main/java/com/signalfire/www/rpc/common/RpcResponse.java" afterPath="$PROJECT_DIR$/rpc-common/src/main/java/com/signalfire/www/rpc/common/RpcResponse.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,8 +40,8 @@
       <file leaf-file-name="HelloServiceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpc-sample-app/src/main/java/com/signalfire/www/rpc/sample/app/HelloServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="532">
+              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,11 +49,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RpcProxy.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc-sample-app/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="31" column="30" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rpc-sample-app/src/main/resources/spring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc-sample-app/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rpc.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc-sample-app/src/main/resources/rpc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RpcProxy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpc-client/src/main/java/com/signalfire/www/rpc/client/RpcProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+            <state relative-caret-position="346">
+              <caret line="67" column="34" lean-forward="true" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#515#516#0" expanded="true" />
@@ -120,46 +161,6 @@
                 <element signature="e#2317#2614#0" expanded="true" />
                 <element signature="e#2613#2614#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZooKeeper.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5-sources.jar!/org/apache/zookeeper/ZooKeeper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="1177" column="18" lean-forward="false" selection-start-line="1177" selection-start-column="18" selection-end-line="1177" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AsyncCallback.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5-sources.jar!/org/apache/zookeeper/AsyncCallback.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="29" column="14" lean-forward="false" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Proxy.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/java/jdk1.8.0_131/src.zip!/java/lang/reflect/Proxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="702" column="25" lean-forward="false" selection-start-line="702" selection-start-column="25" selection-end-line="702" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc-sample-common/src/main/java/com/signalfire/www/rpc/sample/common/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -239,6 +240,7 @@
         <option value="$PROJECT_DIR$/rpc-client/src/main/java/com/signalfire/www/rpc/client/RpcClient.java" />
         <option value="$PROJECT_DIR$/rpc-common/src/main/java/com/signalfire/www/rpc/common/RpcResponse.java" />
         <option value="$PROJECT_DIR$/rpc-client/src/main/java/com/signalfire/www/rpc/client/RpcProxy.java" />
+        <option value="$PROJECT_DIR$/rpc-sample-app/src/main/resources/spring.xml" />
       </list>
     </option>
   </component>
@@ -393,16 +395,7 @@
               <item name="rpc-sample-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="rpc-sample-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
@@ -459,21 +452,22 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/rpc-common/src/main/java" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.signalfire.www.rpc.server" />
-      <recent name="com.signalfire.www.rpc.common" />
-      <recent name="com.signalfire.www.rpc.sample.client" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\hb-git\rpc\rpc-sample-app\src\main\resources" />
+      <recent name="E:\workspace\hb-git\rpc\rpc-registry\src\main\java\com\signalfire\www\rpc\registry" />
+      <recent name="E:\workspace\hb-git\rpc\rpc-common\src\main\java\com\signalfire\www\rpc\common" />
+      <recent name="E:\workspace\hb-git\rpc\rpc-sample-server\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\workspace\hb-git\rpc\rpc-registry\src\main\java\com\signalfire\www\rpc\registry" />
-      <recent name="E:\workspace\hb-git\rpc\rpc-common\src\main\java\com\signalfire\www\rpc\common" />
-      <recent name="E:\workspace\hb-git\rpc\rpc-sample-server\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.signalfire.www.rpc.server" />
+      <recent name="com.signalfire.www.rpc.common" />
+      <recent name="com.signalfire.www.rpc.sample.client" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -607,7 +601,7 @@
       <workItem from="1514209575670" duration="7107000" />
       <workItem from="1514216728170" duration="1035000" />
       <workItem from="1514290658771" duration="2741000" />
-      <workItem from="1514642396947" duration="5339000" />
+      <workItem from="1514642396947" duration="5455000" />
     </task>
     <task id="LOCAL-00001" summary="导入maven包">
       <created>1514211107719</created>
@@ -875,11 +869,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514647678459</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="rpcclient">
+      <created>1514647759512</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1514647759512</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16222000" />
+    <option name="totallyTimeSpent" value="16338000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -991,29 +992,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rpc-common/src/main/java/com/signalfire/www/rpc/common/SerializationUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="45" column="19" lean-forward="false" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-common/rpc-common.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rpc-server/src/main/java/com/signalfire/www/rpc/server/RpcService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1291,14 +1269,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-sample-app/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="31" column="30" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rpc-sample-common/src/main/java/com/signalfire/www/rpc/sample/common/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1328,16 +1298,6 @@
         <state relative-caret-position="297">
           <caret line="1177" column="18" lean-forward="false" selection-start-line="1177" selection-start-column="18" selection-end-line="1177" selection-end-column="18" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpc-sample-app/src/main/java/com/signalfire/www/rpc/sample/app/HelloServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1392,8 +1352,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rpc-client/src/main/java/com/signalfire/www/rpc/client/RpcProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        <state relative-caret-position="346">
+          <caret line="67" column="34" lean-forward="true" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#515#516#0" expanded="true" />
@@ -1404,6 +1364,48 @@
             <element signature="e#970#2484#0" expanded="true" />
             <element signature="e#2483#2484#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-sample-app/src/main/java/com/signalfire/www/rpc/sample/app/HelloServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-sample-app/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="31" column="30" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-sample-app/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-sample-app/src/main/resources/rpc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-sample-app/src/main/resources/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
