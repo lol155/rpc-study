@@ -19,7 +19,7 @@
         </dependency>
         <!-- RPC Registry -->
         <dependency>
-            <groupId>rpc-common</groupId>
+            <groupId>com.signalfire.www</groupId>
             <artifactId>rpc-registry</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>

@@ -1,5 +1,6 @@
 package com.signalfire.www.rpc.sample.app;
 
+import com.signalfire.www.rpc.client.RpcProxy;
 import com.signalfire.www.rpc.sample.common.HelloService;
 import com.signalfire.www.rpc.sample.common.Person;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -26,7 +26,11 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:3.2.12.RELEASE" level="project" />
     <orderEntry type="module" module-name="rpc-client" />
     <orderEntry type="module" module-name="rpc-common" />
-    <orderEntry type="library" name="Maven: rpc-common:rpc-registry:0.0.1-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="rpc-registry" />
+    <orderEntry type="library" name="Maven: org.apache.zookeeper:zookeeper:3.4.5" level="project" />
+    <orderEntry type="library" name="Maven: jline:jline:0.9.94" level="project" />
+    <orderEntry type="library" name="Maven: junit:junit:3.8.1" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.netty:netty:3.2.2.Final" level="project" />
     <orderEntry type="module" module-name="rpc-sample-common" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.7" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.7" level="project" />
