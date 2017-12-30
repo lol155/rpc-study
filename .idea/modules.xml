@@ -7,7 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/rpc-common/rpc-common.iml" filepath="$PROJECT_DIR$/rpc-common/rpc-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/rpc-registry/rpc-registry.iml" filepath="$PROJECT_DIR$/rpc-registry/rpc-registry.iml" />
       <module fileurl="file://$PROJECT_DIR$/rpc-sample-app/rpc-sample-app.iml" filepath="$PROJECT_DIR$/rpc-sample-app/rpc-sample-app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rpc-sample-client/rpc-sample-client.iml" filepath="$PROJECT_DIR$/rpc-sample-client/rpc-sample-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/rpc-sample-common/rpc-sample-common.iml" filepath="$PROJECT_DIR$/rpc-sample-common/rpc-sample-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/rpc-sample-server/rpc-sample-server.iml" filepath="$PROJECT_DIR$/rpc-sample-server/rpc-sample-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/rpc-server/rpc-server.iml" filepath="$PROJECT_DIR$/rpc-server/rpc-server.iml" />
