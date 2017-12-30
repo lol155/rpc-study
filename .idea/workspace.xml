@@ -88,16 +88,16 @@
       <file leaf-file-name="ServiceDiscovery.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rpc-registry/src/main/java/com/signalfire/www/rpc/registry/ServiceDiscovery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="20" column="55" lean-forward="false" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#673#681#0" expanded="true" />
-                <element signature="e#1228#1560#0" expanded="true" />
-                <element signature="e#1559#1560#0" expanded="true" />
-                <element signature="e#1618#1626#0" expanded="true" />
-                <element signature="e#2340#2637#0" expanded="true" />
-                <element signature="e#2636#2637#0" expanded="true" />
+                <element signature="e#601#609#0" expanded="true" />
+                <element signature="e#1156#1488#0" expanded="true" />
+                <element signature="e#1487#1488#0" expanded="true" />
+                <element signature="e#1546#1554#0" expanded="true" />
+                <element signature="e#2268#2565#0" expanded="true" />
+                <element signature="e#2564#2565#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -595,7 +595,7 @@
       <workItem from="1514209575670" duration="7107000" />
       <workItem from="1514216728170" duration="1035000" />
       <workItem from="1514290658771" duration="2741000" />
-      <workItem from="1514642396947" duration="4157000" />
+      <workItem from="1514642396947" duration="4182000" />
     </task>
     <task id="LOCAL-00001" summary="导入maven包">
       <created>1514211107719</created>
@@ -828,11 +828,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514646104451</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="serviceDiscovery  监听节点实现">
+      <created>1514646568418</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1514646568418</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15040000" />
+    <option name="totallyTimeSpent" value="15065000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -912,7 +919,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="在客户端创建调用的接口" />
     <MESSAGE value="在客户端创建实体类Person" />
     <MESSAGE value="修改业务接口 提取到业务公共模块中" />
     <MESSAGE value="添加注解类RpcService" />
@@ -937,7 +943,8 @@
     <MESSAGE value="serviceDiscovery" />
     <MESSAGE value="serviceDiscovery  链接zk" />
     <MESSAGE value="serviceDiscovery  监听节点逻辑" />
-    <option name="LAST_COMMIT_MESSAGE" value="serviceDiscovery  监听节点逻辑" />
+    <MESSAGE value="serviceDiscovery  监听节点实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="serviceDiscovery  监听节点实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1334,16 +1341,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rpc-registry/src/main/java/com/signalfire/www/rpc/registry/ServiceDiscovery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="20" column="55" lean-forward="false" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#673#681#0" expanded="true" />
-            <element signature="e#1228#1560#0" expanded="true" />
-            <element signature="e#1559#1560#0" expanded="true" />
-            <element signature="e#1618#1626#0" expanded="true" />
-            <element signature="e#2340#2637#0" expanded="true" />
-            <element signature="e#2636#2637#0" expanded="true" />
+            <element signature="e#601#609#0" expanded="true" />
+            <element signature="e#1156#1488#0" expanded="true" />
+            <element signature="e#1487#1488#0" expanded="true" />
+            <element signature="e#1546#1554#0" expanded="true" />
+            <element signature="e#2268#2565#0" expanded="true" />
+            <element signature="e#2564#2565#0" expanded="true" />
           </folding>
         </state>
       </provider>
