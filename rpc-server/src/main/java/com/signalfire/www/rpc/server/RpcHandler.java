@@ -39,6 +39,7 @@ public class RpcHandler extends SimpleChannelInboundHandler<RpcRequest> {
             response.setResult(result);
         } catch (Throwable t) {
             response.setError(t);
+            LOGGER.error("",t);
         }
 
         //写入 outbundle（即RpcEncoder）进行下一步处理（即编码）后发送到channel中给客户端

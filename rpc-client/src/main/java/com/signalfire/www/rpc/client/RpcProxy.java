@@ -46,6 +46,7 @@ public class RpcProxy {
                         request.setClassName(method.getDeclaringClass().getName());
                         request.setParameterTypes(method.getParameterTypes());
                         request.setParameters(args);
+                        request.setMethodName(method.getName());
 
                         //查找服务
                         if (serviceDiscovery != null) {

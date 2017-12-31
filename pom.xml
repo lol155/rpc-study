@@ -10,7 +10,6 @@
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>rpc-sample-server</module>
-        <module>rpc-sample-client</module>
         <module>rpc-sample-app</module>
         <module>rpc-server</module>
         <module>rpc-client</module>

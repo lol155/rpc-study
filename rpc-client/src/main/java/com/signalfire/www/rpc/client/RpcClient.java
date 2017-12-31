@@ -37,7 +37,7 @@ public class RpcClient extends SimpleChannelInboundHandler<RpcResponse>{
      * 读取服务端的返回结果
      */
     @Override
-    protected void channelRead0(ChannelHandlerContext ctx, RpcResponse msg) throws Exception {
+    protected void channelRead0(ChannelHandlerContext ctx, RpcResponse response) throws Exception {
         this.response = response;
 
         synchronized (obj) {

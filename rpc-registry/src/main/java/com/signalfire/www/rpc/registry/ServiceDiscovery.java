@@ -96,7 +96,7 @@ public class ServiceDiscovery {
                             }
                         }
                     });
-            latch.wait();
+            latch.await();
         } catch (Exception e) {
             LOGGER.error("",e);
         }

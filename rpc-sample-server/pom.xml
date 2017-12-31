@@ -17,12 +17,6 @@
             <artifactId>rpc-server</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
-        <!-- RPC Sample Client -->
-        <dependency>
-            <groupId>com.signalfire.www</groupId>
-            <artifactId>rpc-sample-client</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
         <dependency>
             <groupId>com.signalfire.www</groupId>
             <artifactId>rpc-sample-common</artifactId>
